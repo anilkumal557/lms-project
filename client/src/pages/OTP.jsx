@@ -11,7 +11,7 @@ const OTP = () => {
   const { email } = useParams();
   const [otp, setOtp] = useState("");
   const dispatch = useDispatch();
-  a;
+
 
   const { loading, error, message, user, isAuthenticated } = useSelector(
     (state) => state.auth
